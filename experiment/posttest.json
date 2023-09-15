@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What is the primary microstructure in hypo eutectoid steels with less than 0.8 wt% C?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Ferrite and pearlite",
+        "b": "Cementite",
+        "c": "Martensite",
+        "d": "Austenite and pearlite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. What transformation occurs when autenitic phase transforms into laminar structure of ferrite and cementite (called pearlite)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Eutectoid transformation",
+        "b": "Martensitic transformation",
+        "c": "Pearlite formation",
+        "d": "Ferrite formation"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. How does quenching affect the microstructure of steel with 0.7 wt% C?",
+      "answers": {
+        "a": "Forms ferrite",
+        "b": "Forms cementite",
+        "c": "Forms martensite",
+        "d": "Forms austenite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +50,57 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What type of crystal structure does martensite have?",
+      "answers": {
+        "a": "Face-centered cubic (FCC)",
+        "b": "Body-centered cubic (BCC)",
+        "c": "Body-centered tetragonal (BCT)",
+        "d": "Hexagonal close-packed (HCP)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Which element is responsible for the stainless properties of stainless steel?",
+      "answers": {
+        "a": "Carbon",
+        "b": "Chromium",
+        "c": "Nickel",
+        "d": "Iron"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. What type of oxide film forms on the surface of stainless steel, making it corrosion-resistant?",
+      "answers": {
+        "a": "Chromium oxide (Cr2O3)",
+        "b": "Iron oxide (Fe2O3)",
+        "c": "Nickel oxide (NiO)",
+        "d": "Carbon oxide (CO2)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
