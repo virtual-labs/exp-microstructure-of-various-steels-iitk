@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. What is the primary microstructure in hypo eutectoid steels with less than 0.8 wt% C?",
+      "question": "1. What is the primary microstructure in hypoeutectoid steels with less than 0.8 wt% C?",
       "answers": {
         "a": "Ferrite and pearlite",
         "b": "Cementite",
