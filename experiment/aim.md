@@ -1,2 +1,4 @@
 ### The aim of this experiment is to learn about the <br>
-(a) iron carbon phase diagram (b) Eutectoid phase transformation, and (c) the microstructures of different steels: hypoeutectoid, eutectoid and hypereutectoid.
+(a) Iron carbon phase diagram <br>
+(b) Eutectoid phase transformation, and <br>
+(c) The microstructures of different steels: hypoeutectoid, eutectoid and hypereutectoid.
