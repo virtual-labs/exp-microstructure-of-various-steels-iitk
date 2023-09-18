@@ -5,9 +5,9 @@ In the Fe rich portion of Fe-C phase diagram (Figure 2), we see several phases. 
 <image src="images/image2.PNG"><br>
 <b><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></b> <br>
 a.
-<image src="images/Picture1.jpg"><br>
+<image src="images/Picture1.jpg">
 b. 
-<image src="images/Picture2.png"><br>
+<image src="images/Picture2.png">
 c. 
 <image src="images/Picture3.jpg"><br>
 <b><C>Figure 3. Optical micrographs of (a) Hypoeutectoid, (b) Eutectoid, and (c) Hypereutectoid steels at 500 x magnification.</C> </b><br><br>
