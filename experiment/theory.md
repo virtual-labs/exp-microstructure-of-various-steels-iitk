@@ -3,7 +3,7 @@ Carbon steels by far find the maximum use in industries and daily life. Referrin
 <b><C>Figure 1. The Iron Carbon phase diagram</C></b><br><br>
 In the Fe rich portion of Fe-C phase diagram (Figure 2), we see several phases. Austenite, ferrite and cementite.  we observe a temperature minimum in austenitic phase with 0.76wt% C and 723<sup>0</sup>C, it forms single phase austenite. Austenite has high solubility of carbon (max. 2.11wt% at about 1150<sup>0</sup>C). On cooling such an alloy below 723<sup>0</sup>C (for the composition 0.8 C wt%), the alloy undergoes eutectoid transformation forming two phases, ferrite(<i>α</i>) and cementite, simultaneously. This structure is known as pearlite, which consists of alternate lamellae of <i>α</i> and Fe<sub>3</sub>C. <br>
 <image src="images/image2.PNG"><br>
-<b><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></b> <br>
+<b><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></b> <br><br>
 
 a.
 <image src="images/Picture1.jpg">
