@@ -4,7 +4,7 @@
     {
       "question": "1. In the iron-carbon phase diagram, what is the maximum carbon content for steel?",
       "answers": {
-        "<b>a</b>": "0.02%",
+        "a": "0.02%",
         "b": "0.76%",
         "c": "2.11%",
         "d": "6.7%"
