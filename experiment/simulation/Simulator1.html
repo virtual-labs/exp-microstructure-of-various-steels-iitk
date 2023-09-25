@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Iron carbon phase diagram</title>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .disclaimer {
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+        }
+
+        .relative-container {
+            position: relative;
+            max-width: 100%;
+        }
+
+        .svg-container {
+            position: absolute;
+            top: 0;
+            left: 32px;
+            /* left: -235px; */
+            width: 100%;
+            height: 100%;
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        polygon {
+            fill: transparent;
+            /* for add border uncomment below line */
+            /* stroke: black;   */
+            stroke-width: 2;
+            transition: fill 0.3s;
+        }
+
+        /* Add a new class to highlight the selected region */
+        .highlighted {
+            fill: rgba(153, 153, 150, 0.492);
+            stroke: rgba(184, 184, 180, 0.463);
+            transition: fill 0.3s, stroke 0.3s;
+        }
+
+        .question {
+            font-weight: bold;
+        }
+
+        .info-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            padding: 80px;
+            font-size: 20px
+        }
+    </style>
+
+</head>
+
+<body onload="showQuiz(event,initialArea)">
+    <button type="button" class="btn btn-outline-info  mx-2 my-2"><a href="index.html"> Go to main page</a></button>
+    <button type="button" class="btn btn-outline-info  m-3"><a href="index.html">Back </a></button>
+    <button type="button" class="btn btn-outline-info  m-3"><a href="Simulator2.html">Next </a></button>
+    <h2 class="d-flex justify-content-center align-items-center"> Steel Part of the Iron-Carbon Phase Diagram </h2>
+    <p class="disclaimer">Disclaimer: Please note that the pearlite is not a phase, it is a laminar structure of ferrite
+        and cementite. However, since we are differentiating the hypo and hyper eutectoid phase, we have treated
+        Pearlite as being one of the "phase", to differentiate between the two. Once again, strictly speaking, "pearlite
+        is not a phase"</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 relative-container">
+
+
+                <img id="imageMap" src="images/Steel part of cp diagram simulator1 img.png" alt="" />
+
+                <div class="svg-container">
+                    <svg id="imageMapSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768">
+                        <!-- Region F -->
+                        <polygon id="polygon-6" points="955,320 955,0 459,325"></polygon>
+
+                        <!-- Region C -->
+                        <polygon id="polygon-3" points="460,325,460,715,975,715,975,325"></polygon>
+
+                        <!-- Region B -->
+                        <polygon id="polygon-2" points="155,325 455,325,455,715,132,715"></polygon>
+
+                        <!-- Region A -->
+                        <polygon id="polygon-1" points="118,120,120,715,130,715,148,327"></polygon>
+
+                        <!-- Region D -->
+                        <polygon id="polygon-4"
+                            points="120,110 150,324 415,324 360,305 318,290 272,270 230,245 200,222 161,187">
+                        </polygon>
+
+                        <!-- Region E -->
+                        <polygon id="polygon-5"
+                            points="455,324 813,83 118,83 130,121 138,145 159,180 184,205 205,225 226,245 261,265 296,280 329,295 363,310">
+                        </polygon>
+
+                        <!-- Region F -->
+                        <!-- <polygon id="polygon-6" points="974,327,970,3,458,325" /> -->
+
+                        <!-- Region C -->
+                        <!-- <polygon id="polygon-3" points="452,332,456,696,980,688,977,331" /> -->
+
+                        <!-- Region B -->
+                        <!-- <polygon id="polygon-2" points="150,335,465,325,465,706,130,711" /> -->
+
+                        <!-- Region A -->
+                        <!-- <polygon id="polygon-1" points="118,120,120,715,130,715,148,327" /> -->
+
+                        <!-- Region D -->
+                        <!-- <polygon id="polygon-4" points="118,118,154,324,408,326,360,301,318,284,272,258,232,233,195,207,161,186" /> -->
+
+                        <!-- Region E -->
+                        <!-- <polygon id="polygon-5" points="458,324,813,83,118,74,120,121,138,146,159,170,184,198,205,219,226,236,261,258,296,275,329,287,363,301" /> -->
+
+                    </svg>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 col-sm-12">
+                <div class="info-box">
+
+                    <div class="question"> Which of the following phases are present in the shaded region ? </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="PearliteCementite"
+                            id="PearliteCementite">
+                        <label class="form-check-label" for="PearliteCementite">
+                            Pearlite and Cementite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="FerritePerlite"
+                            id="FerritePerlite">
+                        <label class="form-check-label" for="FerritePerlite">
+                            Ferrite and Pearlite
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="FerriteAustenite"
+                            id="FerriteAustenite">
+                        <label class="form-check-label" for="FerriteAustenite">
+                            Ferrite and Austenite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="OnlyFerrite"
+                            id="OnlyFerrite">
+                        <label class="form-check-label" for="OnlyFerrite">
+                            Only Ferrite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="OnlyAustenite"
+                            id="OnlyAustenite">
+                        <label class="form-check-label" for="OnlyAustenite">
+                            Only Austenite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="AusteniteCementite"
+                            id="AusteniteCementite">
+                        <label class="form-check-label" for="AusteniteCementite">
+                            Austenite and Cementite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="OnlyPearlite"
+                            id="OnlyPearlite">
+                        <label class="form-check-label" for="OnlyPearlite">
+                            Only Pearlite
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="option" value="OnlyCementite"
+                            id="OnlyCementite">
+                        <label class="form-check-label" for="OnlyCementite">
+                            Only Cementite
+                        </label>
+                    </div>
+                    <button onclick="checkAnswer()" type="button" class="btn btn-outline-info my-2">Check
+                        Answer</button>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Add this right before the closing </body> tag -->
+    <div class="modal fade" id="quizCompletedModal" tabindex="-1" aria-labelledby="quizCompletedModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quizCompletedModalLabel">Quiz Completed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Congratulations! You have completed the quiz.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="location.reload()">Restart Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // for one checkbox at time 
+        const checkboxes = document.querySelectorAll('.form-check-input');
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                if (this.checked) {
+                    checkboxes.forEach(otherCheckbox => {
+                        if (otherCheckbox !== this) {
+                            otherCheckbox.checked = false;
+                        }
+                    });
+                }
+            });
+        });
+
+
+
+        var initialArea = "Region A";
+        let currentRegionIndex = 0;
+        const regions = [
+            'Region A',
+            'Region B',
+            'Region C',
+            'Region D',
+            'Region E',
+            'Region F'
+        ];
+
+        const correctAnswers = [
+            'OnlyFerrite', // Region A
+            'FerritePerlite', // Region B
+            'PearliteCementite', // Region c
+            'FerriteAustenite',   // Region D
+            'OnlyAustenite', // Region E
+            'AusteniteCementite', // Region F
+            ['Cementite', 'Austenite'] // NO Region (multiple correct answers)
+        ];
+
+
+
+        // quiz code below
+
+        //  Startng quiz only for region a 
+        function showQuiz(event, areaName) {
+            // Remove the highlight from the previously selected region
+            if (currentRegionIndex >= 0) {
+                const previousHighlightedPolygon = document.getElementById(`polygon-${currentRegionIndex + 1}`);
+                previousHighlightedPolygon.classList.remove('highlighted');
+            }
+
+            // Find the index of the clicked region
+            const clickedRegionIndex = regions.findIndex(region => region === areaName);
+            currentRegionIndex = clickedRegionIndex;
+            console.log(" starting currentRegionIndex", currentRegionIndex)
+
+            // Highlight the corresponding SVG region
+            const highlightedPolygon = document.getElementById(`polygon-${currentRegionIndex + 1}`);
+            highlightedPolygon.classList.add('highlighted');
+            console.log(" after adding highlighting currentRegionIndex", currentRegionIndex)
+
+            // Show the info box and set the initial question
+            const infoBox = document.querySelector('.info-box');
+            const question = document.querySelector('.question');
+            question.textContent = `Which of the following phases are present in the shaded  region ?`;
+            infoBox.style.top = `${event.pageY}px`;
+            infoBox.style.left = `${event.pageX}px`;
+            infoBox.style.display = 'block';
+        }
+
+        function checkAnswer() {
+            const selectedOptions = document.querySelectorAll('.form-check input[type="checkbox"]:checked');
+            const selectedValues = Array.from(selectedOptions).map(option => option.value.trim().toLowerCase());
+
+            const correctAnswersForCurrentRegion = correctAnswers[currentRegionIndex];
+
+            if (Array.isArray(correctAnswersForCurrentRegion)) {
+                // Region with multiple correct answers
+                const isCorrect = correctAnswersForCurrentRegion.every(answer => selectedValues.includes(answer.toLowerCase()));
+
+                if (isCorrect) {
+                    showFeedback(true, `Correct! You chose the right answer.`);
+                    selectedOptions.forEach(option => {
+                        option.checked = false;
+                    });
+                    setTimeout(() => {
+                        currentRegionIndex++;
+                        if (currentRegionIndex < regions.length) {
+                            showNextRegion();
+                        } else {
+                            showCompletionMessage();
+                        }
+                    }, 1000); // Delay in milliseconds
+                } else {
+                    showFeedback(false, 'Incorrect answer. Please try again.');
+                }
+            } else {
+                // Region with single correct answer
+                if (selectedValues.length === 1 && selectedValues[0] === correctAnswersForCurrentRegion.toLowerCase()) {
+                    showFeedback(true, `Correct! You chose the right answer.`);
+                    selectedOptions.forEach(option => {
+                        option.checked = false;
+                    });
+                    setTimeout(() => {
+                        currentRegionIndex++;
+                        if (currentRegionIndex < regions.length) {
+                            showNextRegion();
+                        } else {
+                            showCompletionMessage();
+                        }
+                    }, 1000); // Delay in milliseconds
+                } else {
+                    showFeedback(false, 'Incorrect answer. Please try again.');
+                }
+            }
+        }
+
+
+        // show correct or incorrect 
+        function showFeedback(isCorrect, message) {
+            const feedback = document.querySelector('.feedback');
+            feedback.textContent = message;
+            feedback.style.color = isCorrect ? 'green' : 'red';
+        }
+
+        //  showNextRegion function for showing next region quiz 
+        function showNextRegion() {
+            console.log(" calling next region currentRegionIndex", currentRegionIndex);
+            const infoBox = document.querySelector('.info-box');
+            infoBox.style.display = 'none';
+
+            // Remove the highlight from all polygons
+            const highlightedPolygons = document.querySelectorAll('.highlighted');
+            highlightedPolygons.forEach(polygon => {
+                polygon.classList.remove('highlighted');
+            });
+
+            // Highlight the corresponding SVG region for the next question
+            const highlightedPolygon = document.getElementById(`polygon-${currentRegionIndex + 1}`);
+            highlightedPolygon.classList.add('highlighted');
+            console.log(" add region color currentRegionIndex", currentRegionIndex);
+
+            // Update the question for the next region
+            const question = document.querySelector('.question');
+            question.textContent = `Which of the following phases are present in the shaded  region ?`;
+
+
+            // Show the info box again with the updated content
+            infoBox.style.display = 'block';
+
+            // Clear previous feedback
+            const feedback = document.querySelector('.feedback');
+            feedback.textContent = '';
+        }
+
+
+        // When quiz completed
+        function showCompletionMessage() {
+            // Show the quiz completed modal
+            const quizCompletedModal = new bootstrap.Modal(document.getElementById('quizCompletedModal'));
+            quizCompletedModal.show();
+        }
+
+    </script>
+
+</body>
+
+</html>
