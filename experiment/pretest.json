@@ -4,10 +4,10 @@
     {
       "question": "1. In the iron-carbon phase diagram, what is the maximum carbon content for steel?",
       "answers": {
-         "0.02%",
-         "0.76%",
-         "2.11%",
-         "6.7%"
+        "a": "0.02%",
+        "b": "0.76%",
+        "c": "2.11%",
+        "d": "6.7%"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "2.11%",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "2. At what temperature does the eutectoid reaction occur in the iron-carbon phase diagram?",
       "answers": {
-        "723°C",
-         "910°C",
-         "1130°C",
-         "1495°C"
+        "a": "723°C",
+        "b": "910°C",
+        "c": "1130°C",
+        "d": "1495°C"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,16 +32,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "723°C",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "3. Which phase of steel has a body-centered cubic (BCC) crystal structure?",
       "answers": {
-        "Ferrite",
-        "Cementite",
-        "Austenite",
-        "Pearlite"
+        "a": "Ferrite",
+        "b": "Cementite",
+        "c": "Austenite",
+        "d": "Pearlite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -49,16 +49,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "Ferrite",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "4. Steel with a carbon content below the eutectoid composition is classified as:?",
       "answers": {
-        "Hypereutectoid steel",
-        "Hypoeutectoid steel",
-        "Cast iron",
-        "Martensitic steel"
+        "a": "Hypereutectoid steel",
+        "b": "Hypoeutectoid steel",
+        "c": "Cast iron",
+        "d": "Martensitic steel"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -66,16 +66,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "Hypoeutectoid steel",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "5. What type of microstructure results from the slow cooling of eutectoid steel?",
       "answers": {
-        "Martensite",
-        "Austenite",
-        "Pearlite",
-        "Ferrite"
+        "a": "Martensite",
+        "b": "Austenite",
+        "c": "Pearlite",
+        "d": "Ferrite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -83,16 +83,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "Pearlite",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "6. At what carbon content does steel become classified as hypereutectoid?",
       "answers": {
-         "Above 2.11%",
-         "Above 0.76%",
-         "Below 0.02%",
-         "Below 0.76%"
+        "a": "Above 2.11%",
+        "b": "Above 0.76%",
+        "c": "Below 0.02%",
+        "d": "Below 0.76%"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -100,16 +100,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "Above 0.76%",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "7. Which type of steel has a microstructure consisting of ferrite and cementite lamellae? ",
       "answers": {
-        "Austenitic steel",
-        "Martensitic steel",
-        "Pearlite steel",
-        "Spheroidite steel"
+        "a": "Austenitic steel",
+        "b": "Martensitic steel",
+        "c": "Pearlite steel",
+        "d": "Spheroidite steel"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -117,8 +117,10 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "Pearlite steel",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
+  ]
+}
   ]
 }
