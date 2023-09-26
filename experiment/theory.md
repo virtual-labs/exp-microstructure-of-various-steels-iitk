@@ -5,7 +5,10 @@ In the Fe-rich portion of the iron-C phase diagram (Figure 2), we see several ph
 On cooling such an alloy below 723<sup>0</sup>C (for the composition 0.8 C wt%), the alloy undergoes eutectoid transformation, forming two phases, ferrite(<i>α</i>) and cementite, simultaneously. This transformation is called the Eutectoid reaction. Because of the diffusion-driven process, the two phases form a lamellar structure of ferrite and cementite, known as the pearlite colony. <br>
 <image src="images/image2.PNG"><br>
 <b><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></b> <br><br>
-
+6.7
+6.8
+6.9
+6.798
 a.
 <image src="images/Picture1.jpg">
 b. 
