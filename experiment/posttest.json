@@ -89,10 +89,10 @@
     {
       "question": "6. What type of oxide film forms on the surface of stainless steel, making it corrosion-resistant?",
       "answers": {
-        "a": "Chromium oxide (Cr2O3)",
-        "b": "Iron oxide (Fe2O3)",
+        "a": "Chromium oxide (Cr<sub>2</sub>O<sub>3</sub>)",
+        "b": "Iron oxide (Fe<sub>2</sub>O<sub>3</sub>)",
         "c": "Nickel oxide (NiO)",
-        "d": "Carbon oxide (CO2)"
+        "d": "Carbon oxide (CO<sub>2</sub>)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
