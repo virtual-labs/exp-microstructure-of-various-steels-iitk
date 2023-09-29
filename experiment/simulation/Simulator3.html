@@ -107,22 +107,23 @@
             <div class="col-md-6 col-sm-12">
                 <h3>SEM micrographs</h3>
                 <!-- <p class="graph-content">Select the correct microstructure for the point highlighted in the phase diagram.</p> -->
-                <p class="graph-content">Select the correct microstructure for point 1 , point 2,point 3 and point 4 respectively 
+                <p class="graph-content">Select the correct microstructure for point 1 , point 2,point 3 and point 4
+                    respectively
                 </p>
                 <div class="right-side">
                     <div class="microscope">
                         <img class="microscope-images droppable" src="images/Hypereutectoid.png" alt="Hypereutectoid"
-                        data-drop="Point 4" data-bs-toggle="modal" data-bs-target="#myModal"
-                        onclick="matchImage(this)">
-                        
+                            data-drop="Point 4" data-bs-toggle="modal" data-bs-target="#myModal"
+                            onclick="matchImage(this)">
+
                         <img class="microscope-images droppable" src="images/Hypoeutectoid.png" alt="Hypoeutectoid"
-                        data-drop="Point 2" data-bs-toggle="modal" data-bs-target="#myModal"
-                        onclick="matchImage(this)">
-                        
+                            data-drop="Point 2" data-bs-toggle="modal" data-bs-target="#myModal"
+                            onclick="matchImage(this)">
+
                         <img class="microscope-images droppable" src="images/Eutectoid.png" alt="Eutectoid"
-                        data-drop="Point 3" data-bs-toggle="modal" data-bs-target="#myModal"
-                        onclick="matchImage(this)">
-                        
+                            data-drop="Point 3" data-bs-toggle="modal" data-bs-target="#myModal"
+                            onclick="matchImage(this)">
+
 
                         <img class="microscope-images droppable" src="images/Austentite.jfif" alt="Austentite"
                             data-drop="Point 1" data-bs-toggle="modal" data-bs-target="#myModal"
@@ -215,7 +216,7 @@
 
 
 
-    <!--  Code without highlighted -->
+    <!-- Code without highlighted
     <script>
         // Define an array of points and initialize the current point index to 0
         const points = ['Point 1', 'Point 2', 'Point 3', 'Point 4'];
@@ -249,6 +250,61 @@
         }
 
         
+    </script> -->
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript to handle the quiz -->
+    <script>
+        // Define an array of points and initialize the current point index to 0
+        const points = ['Point 1', 'Point 2', 'Point 3', 'Point 4'];
+        let currentPointIndex = 0;
+
+        // Function to show the instruction for the current point
+        function showInstructionForCurrentPoint() {
+            const graphContent = document.querySelector('.graph-content');
+            if (currentPointIndex < points.length) {
+                graphContent.textContent = `Select the correct image for ${points[currentPointIndex]}`;
+            } else {
+                graphContent.textContent = 'Quiz Completed';
+            }
+        }
+
+        // Function to handle image click and check the match
+        function matchImage(image) {
+            const matchingResult = document.getElementById('matchingResult');
+            const matchingImage = document.getElementById('matchingImage');
+            const modal = new bootstrap.Modal(document.getElementById('myModal'));
+
+            if (image.dataset.drop === points[currentPointIndex]) {
+                matchingResult.textContent = `Correct match for ${points[currentPointIndex]}`;
+                currentPointIndex++; // Move to the next point
+
+                // Check if all points have been matched, and show quiz completion modal if needed
+                if (currentPointIndex === points.length) {
+                    matchingResult.textContent = 'Congratulations! You have completed the quiz.';
+                    modal.show();
+                    showInstructionForCurrentPoint();
+                } else {
+                    // Show the instruction for the next point
+                    showInstructionForCurrentPoint();
+                }
+            } else {
+                matchingResult.textContent = 'Incorrect match. Please try again.';
+            }
+
+            matchingImage.src = image.src;
+            modal.show();
+        }
+
+        // Call the function to show the instruction for the initial point
+        showInstructionForCurrentPoint();
     </script>
 
 
