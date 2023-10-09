@@ -11,6 +11,6 @@ b.
 <image src="images/Picture2.png">
 c. 
 <image src="images/Picture3.jpg"><br>
-<b><C>Figure 3.(a) Hypoeutectoid, (b) Eutectoid, and (c) Hypereutectoid micrographs at 500 x magnification optical microscope. </C> </b><br><br>
+<b><C>Figure 3. Optical micrograph of (a) Hypoeutectoid, (b) Eutectoid, and (c) Hypereutectoid compositions taken at 500 X. </C> </b><br><br>
 Steels having composition less than 0.8 wt% C (known as hypoeutectoid steels) have primary <i>α</i> and pearlite in the microstructure. On cooling such a steel from <i>γ</i> (austenitic region), it forms <i>α</i> (carbon deficient composition)  first until the composition of the remaining <i>γ</i> reaches 0.8 wt%. As it reaches a temperature of 723<sup>0</sup>C, this austenite undergoes eutectoid transformation. Therefore, microstructure of hypoeutectoid steels consists of proeutectoid <i>α</i> with lamellar pearlite. Similarly, Fe-C alloy compositions with C content greater than 0.8wt% are termed as hypereutectoid steels. The microstructure of such steels consists of pro eutectoid Fe<sub>3</sub>C with lamellar pearlite.<br>
 
