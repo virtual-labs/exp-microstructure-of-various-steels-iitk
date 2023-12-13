@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+        <title>Simulator 4</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        .text {
+            background-color: yellow;
+            border-radius: 21px;
+            font-size: 22px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+        }
+
+        .original-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .option-img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .num-values {
+            font-weight: bold;
+            padding: 5px;
+        }
+        p{
+            margin-bottom: 0;
+        }
+        .img-caption {
+            margin-top: 5px;
+            color: #722F37;
+            display: flex;
+            justify-content: center;
+        }
+        #submitBtn,#incrementBtn,#decrementBtn {
+            border: none;
+            background-color: #722F37;
+        }
+
+
+           /* Change the color of the range slider track */
+           input[type="range"]::-webkit-slider-runnable-track {
+            background-color: #d295b5;
+            /* Change to your desired color */
+        }
+
+        input[type="range"]::-moz-range-progress {
+            background-color: #d295b5;
+            /* Change to your desired color */
+        }
+
+        /* Change the color of the slider thumb */
+        input[type="range"]::-webkit-slider-thumb {
+            background-color: #e74c3c;
+            /* Change to your desired color */
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            background-color: #e74c3c;
+            /* Change to your desired color */
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-outline-info mx-2 my-2"><a href="index.html">Go to main page</a></button>
+    <button type="button" class="btn btn-outline-info m-3"><a href="Simulator3.html">Back</a></button>
+    <h2 class="d-flex justify-content-center align-items-center"> Simulator 4 </h2>
+    
+    <div class="container">
+        <div class="row">
+            <h5 class="text">Physical behavior of materials is a function of the phases present. In the image shown below, there are
+                two phases present: pearlite (black phase) and ferrite (white). Using a threshold method, the volume
+                fractions of one phase (pearlite) could be estimated. Here, 6 different thresholds have been used with
+                their corresponding fraction of pearlite phase. Please choose which one is the correct estimate?
+            </h5>
+            <div class="col-md-6">
+                <h5 class="img-caption">Optical Micrograph</h5>
+                <img src="s4img/Original.jpg" alt="Original Image" class="original-image" />
+            </div>
+
+            <div class="col-md-6">
+                <h5 class="img-caption">Predicted Threshold Micrograph</h5>
+                <!-- Options -->
+                <div id="options">
+                    <img src="s4img/OptionA.png" class="option-img" alt="Option A" data-option="A">
+                    <img src="s4img/OptionB.png" class="option-img" alt="Option B" data-option="B">
+                    <img src="s4img/OptionC.png" class="option-img" alt="Option C" data-option="C">
+                    <img src="s4img/OptionD.png" class="option-img" alt="Option D" data-option="D">
+                    <img src="s4img/OptionE.png" class="option-img" alt="Option E" data-option="E">
+                    <img src="s4img/OptionF.png" class="option-img" alt="Option F" data-option="F">
+                </div>
+                <div class="d-flex justify-content-between m-2">
+                    <button type="button" class="btn btn-primary" id="decrementBtn"><i class="zmdi zmdi-arrow-left"></i></button>
+                    <input type="range" class="form-range" min="0" max="5" id="customRange2" value="0">
+                    <button type="button" class="btn btn-primary" id="incrementBtn"><i class="zmdi zmdi-arrow-right"></i></i></button>
+                </div>
+                <!-- Option Details -->
+                <div id="option-details">
+                    <!-- Option A details -->
+                    <div id="option-A-details">
+                        <p class="num-values">Threshold pixel: 40</p>
+                        <p class="num-values">Vol.% of black region: 5.4%</p>
+                    </div>
+
+                    <!-- Option B details -->
+                    <div id="option-B-details">
+                        <p class="num-values">Threshold pixel: 60</p>
+                        <p class="num-values">Vol.% of black region: 11.0%</p>
+                    </div>
+
+                    <!-- Option C details -->
+                    <div id="option-C-details">
+                        <p class="num-values">Threshold pixel: 80</p>
+                        <p class="num-values">Vol.% of black region: 18.6%</p>
+                    </div>
+
+                    <!-- Option D details -->
+                    <div id="option-D-details">
+                        <p class="num-values">Threshold pixel: 100</p>
+                        <p class="num-values">Vol.% of black region: 28.5%</p>
+                    </div>
+
+                    <!-- Option E details -->
+                    <div id="option-E-details">
+                        <p class="num-values">Threshold pixel: 120</p>
+                        <p class="num-values">Vol.% of black region: 45.7%</p>
+                    </div>
+
+                    <!-- Option F details -->
+                    <div id="option-F-details">
+                        <p class="num-values">Threshold pixel: 140</p>
+                        <p class="num-values">Vol.% of black region: 76.6%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <form id="pearliteForm" class="my-3">
+                    <div class="form-group">
+                        <label for="pearliteFraction">Enter Vol. fraction of pearlite phase:</label>
+                        <input type="text" class="form-control" id="pearliteFraction" placeholder="e.g., 15.66"
+                            required autocomplete="off">
+                        <small class="form-text text-muted">Please enter a number with a decimal point without including "%".</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal for correct answer -->
+    <div class="modal fade" id="correctModal" tabindex="-1" role="dialog" aria-labelledby="correctModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="correctModalLabel">Correct Answer</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span> 
+                    </button> -->
+                </div>
+                <div class="modal-body">
+                    Congratulations! Your answer is correct.
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for incorrect answer -->
+    <div class="modal fade" id="incorrectModal" tabindex="-1" role="dialog" aria-labelledby="incorrectModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="incorrectModalLabel">Incorrect Answer</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body">
+                    Sorry, your answer is incorrect.
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+    <!-- Working for only A -->
+    <script>
+        // Function to show/hide option details based on selected option
+        function showOption(option) {
+            const optionDetails = document.getElementById('option-details');
+            const optionADetails = document.getElementById('option-A-details');
+            const optionBDetails = document.getElementById('option-B-details');
+            const optionCDetails = document.getElementById('option-C-details');
+            const optionDDetails = document.getElementById('option-D-details');
+            const optionEDetails = document.getElementById('option-E-details');
+            const optionFDetails = document.getElementById('option-F-details');
+
+            // Hide all option details
+            optionADetails.style.display = 'none';
+            optionBDetails.style.display = 'none';
+            optionCDetails.style.display = 'none';
+            optionDDetails.style.display = 'none';
+            optionEDetails.style.display = 'none';
+            optionFDetails.style.display = 'none';
+
+            // Show the selected option's details
+            document.getElementById(`option-${option}-details`).style.display = 'block';
+        }
+
+        // Function to handle range input change
+        function handleRangeChange() {
+            const rangeInput = document.getElementById('customRange2');
+            const optionImages = document.querySelectorAll('.option-img');
+            const selectedOption = rangeInput.value;
+
+            // Hide all option images initially
+            optionImages.forEach(img => img.style.display = 'none');
+
+            if (selectedOption === '0') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="A"]`).style.display = 'block';
+                showOption('A');
+            }
+            else if (selectedOption === '1') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="B"]`).style.display = 'block';
+                showOption('B');
+            }
+
+            else if (selectedOption === '2') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="C"]`).style.display = 'block';
+                showOption('C');
+            }
+
+            else if (selectedOption === '3') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="D"]`).style.display = 'block';
+                showOption('D');
+            }
+
+            else if (selectedOption === '4') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="E"]`).style.display = 'block';
+                showOption('E');
+            }
+            else if (selectedOption === '5') {
+                // Show option A and its details only when range is at 0
+                document.querySelector(`.option-img[data-option="F"]`).style.display = 'block';
+                showOption('F');
+            }
+
+            else {
+                // Show the selected option image and its details
+                document.querySelector(`.option-img[data-option="${selectedOption}"]`).style.display = 'block';
+                showOption(selectedOption);
+            }
+        }
+
+        // Event listener for range input change
+        const rangeInput = document.getElementById('customRange2');
+        rangeInput.addEventListener('input', handleRangeChange);
+
+        // Event listeners for option image clicks
+        // const optionImages = document.querySelectorAll('.option-img');
+        // optionImages.forEach((img) => {
+        //     img.addEventListener('click', function () {
+        //         const option = img.getAttribute('data-option');
+        //         const selectedOption = rangeInput.value;
+
+        //         if (option === "C" && selectedOption === "2") {
+        //             // Show the correct modal
+        //             // $('#correctModal').modal('show');
+        //             // Show the quiz completed modal
+        //             const quizCompletedModal1 = new bootstrap.Modal(document.getElementById('correctModal'));
+        //             quizCompletedModal1.show();
+        //         } else {
+        //             // Show the incorrect modal
+        //             // $('#incorrectModal').modal('show');
+        //             // Show the quiz completed modal
+        //             const quizCompletedModal2 = new bootstrap.Modal(document.getElementById('incorrectModal'));
+        //             quizCompletedModal2.show();
+        //         }
+        //     });
+        // });
+
+
+   // code for match the input fields values 
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent the form from actually submitting
+
+            // Get the user-entered fraction from the input field
+            const enteredFraction = parseFloat(document.getElementById('pearliteFraction').value);
+
+            // Define the correct fraction value
+            const correctFraction = 18.6;
+
+            // Check if the entered fraction matches the correct fraction
+            if (Math.abs(enteredFraction - correctFraction) < 0.01) {
+                // Show the correct modal
+                const quizCompletedModal1 = new bootstrap.Modal(document.getElementById('correctModal'));
+                quizCompletedModal1.show();
+            } else {
+                // Show the incorrect modal
+                const quizCompletedModal2 = new bootstrap.Modal(document.getElementById('incorrectModal'));
+                quizCompletedModal2.show();
+            }
+        }
+
+        // Add an event listener to the form for form submission
+        const form = document.getElementById('pearliteForm');
+        form.addEventListener('submit', handleFormSubmit);
+
+
+
+        // code for changing slider button next and previous  
+           // Function to handle decrement button click
+           function handleDecrementClick() {
+            const rangeInput = document.getElementById('customRange2');
+            const currentValue = parseFloat(rangeInput.value);
+            if (currentValue > 0) {
+                rangeInput.value = (currentValue - 1).toString();
+                handleRangeChange();
+            }
+        }
+
+        // Function to handle increment button click
+        function handleIncrementClick() {
+            const rangeInput = document.getElementById('customRange2');
+            const currentValue = parseFloat(rangeInput.value);
+            if (currentValue < 6) {
+                rangeInput.value = (currentValue + 1).toString();
+                handleRangeChange();
+            }
+        }
+
+        // Add event listeners to the buttons
+        const decrementBtn = document.getElementById('decrementBtn');
+        const incrementBtn = document.getElementById('incrementBtn');
+        decrementBtn.addEventListener('click', handleDecrementClick);
+        incrementBtn.addEventListener('click', handleIncrementClick);
+
+
+
+
+
+        // Initial setup
+        handleRangeChange();
+    </script>
+</body>
+
+</html>
