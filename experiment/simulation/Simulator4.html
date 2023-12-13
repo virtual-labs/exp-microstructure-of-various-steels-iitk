@@ -13,6 +13,14 @@
         a {
             text-decoration: none;
         }
+        .text {
+            background-color: yellow;
+            border-radius: 21px;
+            font-size: 22px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+        }
 
         .original-image {
             width: 100%;
@@ -71,10 +79,11 @@
 <body>
     <button type="button" class="btn btn-outline-info mx-2 my-2"><a href="index.html">Go to main page</a></button>
     <button type="button" class="btn btn-outline-info m-3"><a href="Simulator3.html">Back</a></button>
-
+    <h2 class="d-flex justify-content-center align-items-center"> Simulator 4 </h2>
+    
     <div class="container">
         <div class="row">
-            <h5>Physical behavior of materials is a function of the phases present. In the image shown below, there are
+            <h5 class="text">Physical behavior of materials is a function of the phases present. In the image shown below, there are
                 two phases present: pearlite (black phase) and ferrite (white). Using a threshold method, the volume
                 fractions of one phase (pearlite) could be estimated. Here, 6 different thresholds have been used with
                 their corresponding fraction of pearlite phase. Please choose which one is the correct estimate?
@@ -345,7 +354,33 @@
 
 
         // code for changing slider button next and previous  
-        
+           // Function to handle decrement button click
+           function handleDecrementClick() {
+            const rangeInput = document.getElementById('customRange2');
+            const currentValue = parseFloat(rangeInput.value);
+            if (currentValue > 0) {
+                rangeInput.value = (currentValue - 1).toString();
+                handleRangeChange();
+            }
+        }
+
+        // Function to handle increment button click
+        function handleIncrementClick() {
+            const rangeInput = document.getElementById('customRange2');
+            const currentValue = parseFloat(rangeInput.value);
+            if (currentValue < 6) {
+                rangeInput.value = (currentValue + 1).toString();
+                handleRangeChange();
+            }
+        }
+
+        // Add event listeners to the buttons
+        const decrementBtn = document.getElementById('decrementBtn');
+        const incrementBtn = document.getElementById('incrementBtn');
+        decrementBtn.addEventListener('click', handleDecrementClick);
+        incrementBtn.addEventListener('click', handleIncrementClick);
+
+
 
 
 
