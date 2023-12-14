@@ -4,7 +4,7 @@ Carbon steels by far find the maximum use in industries and daily life. Referrin
 In the Fe-rich portion of the iron-C phase diagram (Figure 2), we see several phases. Austenite, ferrite and cementite. Austenite is a Face-centered cubic (FCC) structure that forms minima at 0.76 wt% C and 723<sup>0</sup>C in its single-phase form. Austenite has a high solubility of carbon (max. 2.11wt% at about 1150<sup>0</sup>C). <br>
 On cooling such an alloy below 723<sup>0</sup>C (for the composition 0.8 C wt%), the alloy undergoes eutectoid transformation, forming two phases, ferrite(<i>α</i>) and cementite, simultaneously. This transformation is called the Eutectoid reaction. Because of the diffusion-driven process, the two phases form a lamellar structure of ferrite and cementite, known as the pearlite colony. <br>
 <center><image src="images/Picture1.png"></image></center><br>
-<b><center><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></center>center></b> <br><br>
+<b><center><C>Figure 2. The zoomed-out view of steel part of iron carbon phase diagram with schematic microstructures.</C></center></b> <br><br>
 a.
 <image src="images/Picture1.jpg">
 b. 
