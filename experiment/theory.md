@@ -1,5 +1,4 @@
 Carbon steels by far find the maximum use in industries and daily life. Referring to the iron-carbon phase diagram, shown in Figure 1, compositions with C content less than 2.1 wt% C fall under the purview of steel and all compositions beyond 2.1 wt% to 6.7 wt% C is considered cast iron. The right extreme (6.7 wt% C) forms cementite, which is an intermetallic compounds orthorhombic crystal structure.<br><br>
-dev
 <image src="images/image1.PNG"><br>
 <b>Figure 1. The Iron Carbon phase diagram</b><br><br>
 In the Fe-rich portion of the iron-C phase diagram (Figure 2), we see several phases- viz. Austenite, Ferrite and Cementite. Austenite is a Face-centered cubic (FCC) structure that forms minima at 0.76 wt% C and 723<sup>0</sup>C in its single-phase form. Austenite has a high solubility of carbon (max. 2.11wt% at about 1150<sup>0</sup>C). <br>
