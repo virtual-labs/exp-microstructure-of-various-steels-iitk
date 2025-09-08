@@ -22,7 +22,7 @@ b.
 c. 
 <image src="images/Picture3.jpg"><br>
 <b><C>Figure 3. Optical micrograph of (a) Hypoeutectoid, (b) Eutectoid, and (c) Hypereutectoid compositions taken at 500 X. </C> </b><br><br>
-When an alloy with a composition near 0.8 wt% C is cooled below 723 °C, austenite undergoes a eutectoid transformation, decomposing into ferrite and cementite simultaneously. This diffusion-controlled process results in the formation of lamellar pearlite colonies (as shown in Figure 3(c)).<br><br>
+When an alloy with a composition near 0.8 wt% C is cooled below 723 °C, austenite undergoes a eutectoid transformation, decomposing into ferrite and cementite simultaneously. This diffusion-controlled process results in the formation of lamellar pearlite colonies (as shown in Figure 3(b)).<br><br>
 Hypoeutectoid steels, which contain less than 0.8 wt% carbon, exhibit a microstructure consisting of proeutectoid ferrite and pearlite. Upon cooling from the austenitic region, ferrite begins to precipitate first, especially along prior austenite grain boundaries. As the temperature decreases, the remaining austenite becomes enriched in carbon until, at 723 °C, it transforms into pearlite (shown in Figure 3(a)). The proportion of ferrite increases as the carbon content decreases.<br><br>
 In contrast, hypereutectoid steels (carbon content > 0.8 wt%) show a microstructure of proeutectoid cementite and pearlite. During cooling, cementite precipitates first along the austenite grain boundaries. Upon reaching 723 °C, the remaining austenite transforms into pearlite, as shown in the electron micrograph in Figure 3(c). As the carbon content increases, the volume fraction of cementite also increases, leading to greater hardness but potentially reduced ductility.<br>
 
