@@ -36,46 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. How does quenching affect the microstructure of steel with 0.7 wt% C?",
+      "question": "3.Hypereutectoid steels are characterized by the presence of:",
       "answers": {
-        "a": "Forms ferrite",
-        "b": "Forms cementite",
-        "c": "Forms martensite",
-        "d": "Forms austenite"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4. What type of crystal structure does martensite have?",
-      "answers": {
-        "a": "Face-centered cubic (FCC)",
-        "b": "Body-centered cubic (BCC)",
-        "c": "Body-centered tetragonal (BCT)",
-        "d": "Hexagonal close-packed (HCP)"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "5.Which element is responsible for the stainless properties of stainless steel?",
-      "answers": {
-        "a": "Carbon",
-        "b": "Chromium",
-        "c": "Nickel",
-        "d": "Iron"
+        "a": "Proeutectoid ferrite",
+        "b": "Proeutectoid cementite",
+        "c": "Martensite",
+        "d": "Bainite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -87,12 +53,46 @@
       "difficulty": "beginner"
     },
     {
-      "question": "6. What type of oxide film forms on the surface of stainless steel, making it corrosion-resistant?",
+      "question": "4.Which of the following statements is TRUE for eutectoid transformation?",
       "answers": {
-        "a": "Chromium oxide (Cr<sub>2</sub>O<sub>3</sub>)",
-        "b": "Iron oxide (Fe<sub>2</sub>O<sub>3</sub>)",
-        "c": "Nickel oxide (NiO)",
-        "d": "Carbon oxide (CO<sub>2</sub>)"
+        "a": "Occurs at 912 °C",
+        "b": "Liquid transforms into two solids",
+        "c": "Austenite transforms into ferrite and cementite",
+        "d": "Cementite transforms into ferrite and austenite"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. In hypereutectoid steels, the first phase to form upon cooling from the austenite region is:",
+      "answers": {
+        "a": "Ferrite",
+        "b": "Martensite",
+        "c": "Cementite",
+        "d": "Bainite"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following best describes the structure of pearlite?",
+      "answers": {
+        "a": "Alternating layers of ferrite and cementite",
+        "b": "Spherical cementite in ferrite matrix",
+        "c": "Retained austenite",
+        "d": "Quenched martensite"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
