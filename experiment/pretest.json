@@ -102,6 +102,23 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is the carbon content at the eutectoid point in the Fe–C phase diagram? ",
+      "answers": {
+        "a": "0.17 wt%",
+        "b": "0.76 wt%",
+        "c": "2.11 wt%",
+        "d": "4.3 wt%"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
