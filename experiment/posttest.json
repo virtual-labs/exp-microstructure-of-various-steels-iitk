@@ -10,10 +10,10 @@
         "d": "Austenite and pearlite"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is the correct option. In hypoeutectoid steel (< 0.8 wt% C), proeutectoid ferrite forms first during cooling, followed by the transformation of the remaining austenite into pearlite.",
+        "b": "This is an incorrect option. Cementite is dominant in hypereutectoid steels (>0.8 wt% C).",
+        "c": "This is an incorrect option. Forms only after rapid quenching, not normal cooling.",
+        "d": "This is an incorrect option. Austenite is unstable at room temperature in plain carbon steels."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "Ferrite formation"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is the correct option. The transformation in which austenite (γ) decomposes into a lamellar (layered) mixture of ferrite (α) and cementite (Fe3C), known as pearlite, is specifically called the eutectoid transformation.",
+        "b": "This is an incorrect option. This is a diffusionless, shear transformation forming martensite, not ferrite + cementite.",
+        "c": "This is an incorrect option. This describes the product, not the fundamental thermodynamic transformation.",
+        "d": "This is an incorrect option. Ferrite alone does not describe the simultaneous formation of ferrite and cementite in a lamellar structure."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "Liquid + Austenite"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. Austenite is the phase that transforms, not one of the final products.",
+        "b": "This is the correct option. The eutectoid reaction in steel occurs at about 0.76–0.8 wt% carbon and ~723 °C, during which austenite (γ) transforms into ferrite (α) and cementite.",
+        "c": "This is an incorrect option. Austenite is the phase that transforms, not one of the final products.",
+        "d": "This is an incorrect option. Austenite is the phase that transforms, not one of the final products."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "Ledeburite"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option.  Martensite forms by rapid quenching, not eutectoid reaction.",
+        "b": "This is an incorrect option.  Bainite forms at intermediate temperatures.",
+        "c": "This is the correct option. The eutectoid reaction in steel occurs at 0.76 wt% C and 723 °C, where austenite (γ) transforms into a lamellar mixture of ferrite (α) and cementite (Fe3C), known as pearlite.",
+        "d": "This is an incorrect option.  Ledeburite forms during the eutectic reaction in cast iron."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -78,10 +78,10 @@
         "d": " δ → γ + L"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. This represents a eutectic reaction, not a eutectoid reaction, and involves liquid transforming into two solids.",
+        "b": "This is the correct option. The eutectoid reaction in steel occurs at 0.76 wt% C and 723 °C, where austenite (γ) transforms into a lamellar mixture of ferrite (α) and cementite (Fe3C), known as pearlite.",
+        "c": "This is an incorrect option. This reaction is not thermodynamically or structurally correct and does not correspond to any invariant reaction in the Fe–C phase diagram.",
+        "d": "This is an incorrect option. This describes a peritectic reaction occurring at high temperatures, not the eutectoid transformation."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -95,10 +95,10 @@
         "d": "Austenite + Pearlite"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. “Ferrite + Cementite” describes eutectoid or hypereutectoid steel in a simplified sense but misses the distinction of proeutectoid ferrite.",
+        "b": "This is an incorrect option. “Pearlite only” occurs for eutectoid steel (0.76 wt% C).",
+        "c": "This is the correct option. In hypoeutectoid steel, ferrite forms first along grain boundaries (proeutectoid ferrite), and the remaining austenite transforms into pearlite at the eutectoid temperature, resulting in a room-temperature microstructure of proeutectoid ferrite plus pearlite.",
+        "d": "This is an incorrect option. Austenite is not present at room temperature. It transforms completely below 723 °C."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -112,10 +112,10 @@
         "d": "1493 °C"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option.  Near the melting point of some iron-carbon alloys, not relevant here.",
+        "b": "This is an incorrect option. Temperature of eutectoid reaction (pearlite formation).",
+        "c": "This is the correct option. Ferrite starts forming from austenite around 910 °C in hypoeutectoid steels.",
+        "d": "This is an incorrect option. Iron’s melting point, too high."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
