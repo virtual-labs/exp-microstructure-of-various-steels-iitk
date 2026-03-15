@@ -10,10 +10,10 @@
         "d": "6.7%"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. This corresponds to the maximum solubility of carbon in ferrite (α-iron) at room temperature, not the upper limit of carbon content in steel.",
+        "b": "This is an incorrect option. This is the eutectoid composition of steel (where austenite transforms into pearlite), but steels can contain significantly more carbon than this.",
+        "c": "This is the correct option. In the iron–carbon (Fe–C) phase diagram, steel is defined as an alloy of iron containing up to 2.11 wt.% carbon.",
+        "d": "This is an incorrect option. This is the carbon content of cementite (Fe₃C) and represents the upper limit of the iron–carbon phase diagram, characteristic of cast iron, not steel."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "1495°C"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is the correct option. The eutectoid reaction (γ → α + Fe₃C) occurs specifically at 723 °C in the iron–carbon phase diagram.",
+        "b": "This is an incorrect option. This temperature corresponds to the α-iron (ferrite) to γ-iron (austenite) transformation in pure iron, not the eutectoid reaction.",
+        "c": "This is an incorrect option. This temperature is associated with the eutectic reaction in the Fe–C system (liquid → austenite + cementite), not the eutectoid reaction.",
+        "d": "This is an incorrect option. This is close to the peritectic reaction temperature (liquid + δ-ferrite → austenite), unrelated to the eutectoid transformation."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "Pearlite"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is the correct option.  The phase of steel with a BCC crystal structure is ferrite.",
+        "b": "This is an incorrect option.  Cementite is not a pure iron phase with an orthorhombic structure.",
+        "c": "This is an incorrect option.  Austenite has an FCC structure, not BCC.",
+        "d": "This is an incorrect option. It is not a single phase. Instead, it is a mixture (lamellar structure) of ferrite (BCC) and cementite."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -61,33 +61,16 @@
         "d": "Martensitic steel"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option.  Hypereutectoid steels contain more carbon than the eutectoid composition.",
+        "b": "This is the correct option. Steels with carbon content below the eutectoid composition are correctly classified as hypoeutectoid steels.",
+        "c": "This is an incorrect option.  Cast iron contains a high carbon amount, which is far above the eutectoid composition. ",
+        "d": "This is an incorrect option.  Martensite refers to a microstructure formed by rapid quenching, not a classification based on carbon content."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "5. What type of microstructure results from the slow cooling of eutectoid steel?",
-      "answers": {
-        "a": "Martensite",
-        "b": "Austenite",
-        "c": "Pearlite",
-        "d": "Ferrite"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "6. At what carbon content does steel become classified as hypereutectoid?",
+      "question": "5. At what carbon content does steel become classified as hypereutectoid?",
       "answers": {
         "a": "Above 2.11%",
         "b": "Above 0.76%",
@@ -95,16 +78,16 @@
         "d": "Below 0.76%"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. Carbon contents above 2.11 wt% fall in the cast iron range, not steel.",
+        "b": "This is the correct option. Hypereutectoid steel is defined as steel with carbon content greater than the eutectoid composition (0.76 wt%) but less than 2.11 wt%.",
+        "c": "This is an incorrect option. This corresponds to very low-carbon (ultra-low carbon) steel, well below the eutectoid composition, and is classified as hypoeutectoid, not hypereutectoid.",
+        "d": "This is an incorrect option.  Steels with carbon content below 0.76 wt% are hypoeutectoid steels, containing ferrite + pearlite."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "7. Which type of steel has a microstructure consisting of ferrite and cementite lamellae? ",
+      "question": "6. Which type of steel has a microstructure consisting of ferrite and cementite lamellae? ",
       "answers": {
         "a": "Austenitic steel",
         "b": "Martensitic steel",
@@ -112,12 +95,29 @@
         "d": "Spheroidite steel"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This is an incorrect option. Consists mainly of austenite (FCC), not ferrite–cementite lamellae.",
+        "b": "This is an incorrect option. Has a hard, needle-like martensite structure, not lamellae.",
+        "c": "This is the correct option. Pearlite is a lamellar (layered) structure made of alternating layers of ferrite and cementite formed during the eutectoid reaction in steel.",
+        "d": "This is an incorrect option. Cementite is present as spherical particles, not lamellae."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is the carbon content at the eutectoid point in the Fe–C phase diagram? ",
+      "answers": {
+        "a": "0.17 wt%",
+        "b": "0.76 wt%",
+        "c": "2.11 wt%",
+        "d": "4.3 wt%"
+      },
+      "explanations": {
+        "a": "This is an incorrect option. This is close to the carbon solubility limit of carbon in ferrite (α-Fe) at the eutectoid temperature, not the eutectoid composition itself.",
+        "b": "This is the correct option. The eutectoid composition in the Fe–C phase diagram is 0.76 wt% carbon.",
+        "c": "This is an incorrect option. This is the maximum carbon solubility in austenite at the eutectic temperature and marks the boundary between steel and cast iron.",
+        "d": "This is an incorrect option. This corresponds to the eutectic composition in the Fe–C diagram, not the eutectoid point."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
